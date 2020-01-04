@@ -106,7 +106,7 @@ function updatePage(NYTData) {
     }
 
     // Append and log url
-    $articleListItem.append("<a href='" + article.web_url + "'>" + article.web_url + "</a>");
+    $articleListItem.append("<a target='blank' href='" + article.web_url + "'>" + article.web_url + "</a>");
     console.log(article.web_url);
 
     // Append the article
